@@ -10,6 +10,8 @@ import 'package:pujapurohit/pages/drawer_screen.dart';
 import 'package:pujapurohit/responsive.dart';
 import 'package:pujapurohit/utils/epub_reader.dart';
 
+import 'aarti_view_page.dart';
+
 var colors = [
   // Colors.cyan,
   // Colors.lightGreen.shade400
@@ -450,25 +452,25 @@ class ArtiSection extends StatelessWidget {
 }
 
 class ArtiCard extends StatelessWidget {
-  final int item_no;
+ final int item_no;
   final String name;
   final String path;
   final Color topColor;
   final Color textColor;
-
+ // var item_no = 0.obs;
   ArtiCard(this.item_no, this.topColor, this.textColor, this.name, this.path);
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Get.to(AartiPage(item_no));
-        // Get.to(Container());
-        // Navigator.push(
-        //     context,
-        //     MaterialPageRoute(
-        //       builder: (context) => AartiPage(item_no),
-        //     ));
+        Get.to(MobileViewAartiPage(item_no));
+         Get.to(Container());
+         Navigator.push(
+             context,
+             MaterialPageRoute(
+               builder: (context) =>  MobileViewAartiPage(item_no)
+             ));
       },
       child: Container(
         width: 180,
