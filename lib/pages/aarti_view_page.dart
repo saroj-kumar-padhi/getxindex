@@ -31,9 +31,11 @@ class MobileViewAartiPage extends StatelessWidget {
       Padding(
         padding: const EdgeInsets.all(10.0),
         child: Stack(children:[
+         Obx(()=>
+           
           Expanded(child: AartiDetails(item_no.value)),
 
-        ]),
+         ), ]),
       ),
 
     );

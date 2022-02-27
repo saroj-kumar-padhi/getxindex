@@ -464,12 +464,13 @@ class ArtiCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Get.to(MobileViewAartiPage(item_no));
-         Get.to(Container());
+        // Get.to(AartiPage
+        // (item_no));
+        //  Get.to(Container());
          Navigator.push(
              context,
              MaterialPageRoute(
-               builder: (context) =>  MobileViewAartiPage(item_no)
+               builder: (context) => AartiPage(item_no)
              ));
       },
       child: Container(
