@@ -15,18 +15,15 @@ class MobileViewAartiPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
+     appBar: AppBar(
+        title: Center(child: Text('Aarti')),
+      ),
     
       drawer:
-      // IconButton( icon: Icon(Icons.dehaze),
-      //     onPressed: (){
-      //   Navigator.push(context, MaterialPageRoute(builder: (context)=>
-            NavigationDrawer(item_no.value),
-        // ));
-      // },
-      // appBar: AppBar(
-      //   title: Text('Aarti Page'),
-      // ),
+                  NavigationDrawer(item_no.value),
+     
+
       body:
       Padding(
         padding: const EdgeInsets.all(10.0),

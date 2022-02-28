@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:pujapurohit/pages/arti_page.dart';
 
 import '../models/samples.dart';
 class NavigationDrawer extends StatelessWidget {
@@ -18,9 +19,18 @@ class NavigationDrawer extends StatelessWidget {
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
-                    onTap: () {
-                      item_no.value = index;
-                    },
+                   // Within the `FirstRoute` widget
+onTap: () {
+  Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => AartiDetails(
+      item_no.value
+
+
+    )),
+  );
+},
+
                     child: Card(
                       elevation: 7.0,
 
