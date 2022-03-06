@@ -5,10 +5,7 @@ import 'package:get/get_rx/src/rx_types/rx_types.dart';
 import 'package:get/state_manager.dart';
 import 'package:pujapurohit/models/samples.dart';
 import 'package:pujapurohit/pages/aarti_view_page.dart';
-
 import '../responsive.dart';
-
-
 class AartiPage extends StatelessWidget {
   var item_no = 0.obs;
    AartiPage(int p_item_no) : item_no = p_item_no.obs;
@@ -20,8 +17,6 @@ class AartiPage extends StatelessWidget {
     );
   }
 }
-
-
 class AartiDetails extends StatelessWidget {
   int item_no;
   AartiDetails(this.item_no);

@@ -83,6 +83,7 @@ flutter:
     #     - lib/assets/text/
     - lib/assets/epub/english/
     - lib/assets/epub/hindi/
+    - lib/assets/markdown/artis/allmds/aarti_english/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

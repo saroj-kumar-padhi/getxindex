@@ -37,20 +37,6 @@ getClient(httpLink) async {
 }
 
 void main() async {
-  // if (kIsWeb) {
-  //   var envVars = await dotenv.load(fileName: ".release.env");
-  //   WidgetsFlutterBinding.ensureInitialized();
-  //   await Firebase.initializeApp(
-  //     options: FirebaseOptions(
-  //         apiKey: dotenv.env['APIKEY']!,
-  //         appId: dotenv.env['APPID']!,
-  //         messagingSenderId: dotenv.env['MESSAGINGSENDERID']!,
-  //         projectId: dotenv.env['PROJECTID']!),
-  //   );
-  // } else {
-  //   WidgetsFlutterBinding.ensureInitialized();
-  //   await Firebase.initializeApp();
-  // }
   await GetStorage.init();
 
   HttpLink httpLink;

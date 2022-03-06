@@ -63,8 +63,8 @@ List<BookInfo> books = [
 ];
 
 List<ArtiInfo> artis = [
-  ArtiInfo('Shiv Aarti'.tr, 'lib/assets/images/artis/ganpati1.png', 'lib/assets/markdown/artis/hello.md', 'lib/assets/assets_music_music1.mp3'),
-  ArtiInfo('Maa Lakshmi Aarti'.tr, 'lib/assets/images/artis/ganpati1.png', 'lib/assets/markdown/artis/lakshmi_aarti.md',
+  ArtiInfo('Shiv Aarti'.tr, 'lib/assets/images/artis/ganpati1.png', 'lib/assets/markdown/artis/allmds/aarti_english/shiv_aarti.md', 'lib/assets/assets_music_music1.mp3'),
+  ArtiInfo('Maa Lakshmi Aarti'.tr, 'lib/assets/images/artis/ganpati1.png', 'lib/assets/markdown/artis/allmds/aarti_english/lakshami_aarti.md',
       'lib/assets/assets_music_music1.mp3'),
   ArtiInfo('Maa Saraswati Aarti'.tr, 'lib/assets/images/artis/ganpati1.png', 'lib/assets/markdown/artis/saraswati_aarti.md',
       'lib/assets/assets_music_music1.mp3'),
